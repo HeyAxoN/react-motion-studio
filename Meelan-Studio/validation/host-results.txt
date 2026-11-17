@@ -1,0 +1,14 @@
+PASS Host parses as ES3, including the prior regex-delimiter failure case
+PASS Info loads with no composition; edit actions fail with a useful error
+PASS JSON bridge preserves quotes, Unicode and control characters
+PASS Bridge rejects malformed JSON and executable payloads
+PASS Cursor uses an imported GLB and one shared arrival/press timing source
+PASS Cursor refuses an existing scale expression before importing assets
+PASS Carousel makes copies, retains originals, and exposes orbit controls
+PASS Store requires explicit project-save consent before archiving
+PASS Store collects media and restores the original project and playhead
+PASS A media-copy failure restores the original and never publishes a Store entry
+PASS Two consecutive imports locate each newly imported root, not the previous copy
+PASS Removed tools cannot be dispatched or create project items
+
+12 contract/syntax tests passed. This does not validate desktop AE rendering.

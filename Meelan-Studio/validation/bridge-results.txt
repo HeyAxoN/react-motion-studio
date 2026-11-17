@@ -1,0 +1,1 @@
+PASS CEP bridge serializes ES3-safe Unicode and releases its operation lock on both callback and synchronous failure.

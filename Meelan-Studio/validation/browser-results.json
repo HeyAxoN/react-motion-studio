@@ -1,0 +1,26 @@
+{
+  "version": "2.1.0-rc.3",
+  "browser": "145.0.7632.6",
+  "checks": [
+    "Six integrated tools are exposed; every tool has a renderer",
+    "All six thumbnail canvases animate",
+    "Filtering and search find the remaining tools",
+    "carousel-orbit modal plays, pauses, scrubs, restarts, and reopens",
+    "carousel-orbit every setting updates paused preview pixels",
+    "Zero speed intentionally holds still; negative speed animates",
+    "cursor-pearl modal plays, pauses, scrubs, restarts, and reopens",
+    "cursor-pearl every setting updates paused preview pixels",
+    "A failed canvas does not freeze others; Restart retries",
+    "Narrow and short panels retain a sized canvas and usable playback controls",
+    "Disconnected Apply explains the host requirement; Store consent remains enforced",
+    "Carousel settings reach the native host with the same values",
+    "Timer fallback animates when requestAnimationFrame is not delivered",
+    "Reduced motion has an explicit working Play override",
+    "All five mark styles play, scrub and respond to controls",
+    "Workshop navigation exposes only relevant fields and previews every operation",
+    "Composition tools have working playback and configurable controls",
+    "Add-on options reach the bridge; reports render text safely and locate their actual IDs"
+  ],
+  "uncaughtErrors": [],
+  "aeRuntimeTested": false
+}

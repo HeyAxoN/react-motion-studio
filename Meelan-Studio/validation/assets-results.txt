@@ -1,0 +1,1 @@
+PASS Three original GLB models: closed meshes, outward winding, tip origin, embedded materials; preview mesh present.

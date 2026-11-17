@@ -1,0 +1,14 @@
+{
+  "name": "meelan-studio",
+  "version": "2.1.0-rc.3",
+  "private": true,
+  "description": "Original After Effects 2026 motion extension",
+  "scripts": {
+    "test": "node tests/run.cjs",
+    "test:ui": "node tests/browser-tests.cjs"
+  },
+  "devDependencies": {
+    "acorn": "8.15.0",
+    "playwright": "1.62.1"
+  }
+}

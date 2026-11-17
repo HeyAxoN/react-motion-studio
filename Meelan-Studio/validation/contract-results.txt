@@ -1,0 +1,39 @@
+PASS Deep duplication clones shared dependencies once per independent set
+PASS Depth/filter limits keep boundary sources shared; invalid regex is mutation-free
+PASS Project selection duplicates several roots using one shared graph
+PASS Literal expression relinking preserves comments, strings, dynamic links and disabled state
+PASS Duplicate failure removes allocated comps and folders, retains source graph
+PASS Extract preflight rejects an unsupported member before changing any selected layer
+PASS Extract transfers animated outer transforms, keyframe timing, parent chains and layer order
+PASS Extract reconnects track mattes and layer controls after final layer order
+PASS Extraction rollback retains originals after a copy failure
+PASS Five mark styles create native editable shape rigs; rectangles and paths follow changed bounds
+PASS Case, trim and replacement preserve mixed character styles and keyed text times
+PASS Text edit preflight catches expression-driven or locked text before changes
+PASS Saved styles round trip across comps; duplicate names and empty names are rejected
+PASS Text report includes sampled metrics and all six crop checks without mutating text
+PASS All 23 motion choices generate native animator contracts with finite endpoint amounts
+PASS Three palette patterns and multi-outline rigs preserve source text
+PASS Stroke reveals build native Trim Paths; original shapes retained and failure rolls back
+PASS Normalize adjusts font sizes and anchor; fit shifts only root coordinates
+PASS Center anchor retains position keys and adds compensation for rotated/scaled text
+PASS Footage-item copies keep physical media shared and preserve movie import mode
+PASS Text animator failure removes earlier batch additions and keeps existing animators
+21 add-on contract tests passed. Adobe rendering and UI command behavior are not simulated.
+PASS Host parses as ES3, including the prior regex-delimiter failure case
+PASS Info loads with no composition; edit actions fail with a useful error
+PASS JSON bridge preserves quotes, Unicode and control characters
+PASS Bridge rejects malformed JSON and executable payloads
+PASS Cursor uses an imported GLB and one shared arrival/press timing source
+PASS Cursor refuses an existing scale expression before importing assets
+PASS Carousel makes copies, retains originals, and exposes orbit controls
+PASS Store requires explicit project-save consent before archiving
+PASS Store collects media and restores the original project and playhead
+PASS A media-copy failure restores the original and never publishes a Store entry
+PASS Two consecutive imports locate each newly imported root, not the previous copy
+PASS Removed tools cannot be dispatched or create project items
+
+12 contract/syntax tests passed. This does not validate desktop AE rendering.
+PASS Store metadata, soft hide/restore, path boundary, malformed entries, and file URLs.
+PASS Three original GLB models: closed meshes, outward winding, tip origin, embedded materials; preview mesh present.
+PASS CEP bridge serializes ES3-safe Unicode and releases its operation lock on both callback and synchronous failure.

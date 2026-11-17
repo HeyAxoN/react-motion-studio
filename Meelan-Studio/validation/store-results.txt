@@ -1,0 +1,1 @@
+PASS Store metadata, soft hide/restore, path boundary, malformed entries, and file URLs.
